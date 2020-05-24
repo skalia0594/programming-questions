@@ -1,0 +1,62 @@
+{
+    "data": [
+        {
+            "name": "Shubham",
+            "age": 26,
+            "address": {
+                "hno": 21,
+                "street": "Jack Rabbit"
+            },
+            "interests": [
+                "coding",
+                "cooking",
+                "music"
+            ],
+            "grades": [
+                {
+                    "Maths": 90,
+                    "tests": {
+                        "t1": 50,
+                        "t2": 60
+                    }
+                },
+                {
+                    "Science": 80,
+                    "tests": [
+                        50,
+                        60
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Anshu",
+            "age": 28,
+            "address": {
+                "hno": 23,
+                "street": "Rockleigh"
+            },
+            "interests": [
+                "dentistry",
+                "cooking",
+                "music"
+            ],
+            "grades": [
+                {
+                    "Maths": 70,
+                    "tests": {
+                        "t1": 40,
+                        "t2": 50
+                    }
+                },
+                {
+                    "Science": 90,
+                    "tests": [
+                        70,
+                        80
+                    ]
+                }
+            ]
+        }
+    ]
+}
