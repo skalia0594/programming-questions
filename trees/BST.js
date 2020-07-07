@@ -1,7 +1,3 @@
-// Depth first search
-// is an algorithm for traversing or searching tree data structure.
-// One starts at the root and explores as far as possible along each branch before backtracking.
-
 class BinarySearchTree {
     constructor() {
         this.root = null;
@@ -26,8 +22,8 @@ BinarySearchTree.prototype.add = function(value) {
 };
 
 BinarySearchTree.prototype.insert = function(currentNode) {
-    var value = currentNode.value;
-    var traverse = function(node) {
+    const value = currentNode.value;
+    const traverse = function(node) {
         //if value is equal to the value of the node, ignore
         //and exit function since we don't want duplicates
         if (value === node.value) {
@@ -49,6 +45,9 @@ BinarySearchTree.prototype.insert = function(currentNode) {
     traverse(this.root);
 };
 
-const bst = new BinarySearchTree();
-bst.add(40).add(25).add(78).add(10).add(32);
-console.log('BS1', bst);
+// const bst = new BinarySearchTree();
+// bst.add(40).add(25).add(78).add(10).add(32);
+// console.log('BS1', bst.root);
+
+
+module.exports = BinarySearchTree;
